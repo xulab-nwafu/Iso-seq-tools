@@ -12,7 +12,7 @@ conda install -c bioconda blat
 
 ################################################################################
 example commandline 1
-
+```
 python predict-polycistronic-transcript.py -percent 50.0 -gtf ./test.gtf -ref ./ref.gff3 -genome ./genome.fa --out ./test/
 
 -percent
@@ -27,10 +27,10 @@ python predict-polycistronic-transcript.py -percent 50.0 -gtf ./test.gtf -ref ./
 	outputdir please note the outpudir must endwith '/'
 
 final output file name 'Final-predict-result.txt'
-
+```
 ################################################################################
 example commandline 2
-
+```
 python find-FLC-transcript.py -percent 50 -fasta ./test.fasta -genome ./genome.fa -o ./test/
 
 -percent
@@ -42,12 +42,12 @@ python find-FLC-transcript.py -percent 50 -fasta ./test.fasta -genome ./genome.f
 
 -o
 	outputdir please note the outpudir must endwith '/'
-
+```
 
 final output file name 'Final-File-Filter.fasta'
 ################################################################################
 example commandline 3
-
+```
 python find-adjacent-transcript.py -gtf ./gtf -ref ./ref.gff3 -o ./test/
 
 -gtf
@@ -56,6 +56,6 @@ python find-adjacent-transcript.py -gtf ./gtf -ref ./ref.gff3 -o ./test/
 	the gff3/gtf file for reference annotation
 -o
 	outputdir please note the outpudir must endwith '/'
-
+```
 final output file name 'Final-adjacent-transcript-list.txt'
 	
