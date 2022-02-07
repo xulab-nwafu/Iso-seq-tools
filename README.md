@@ -3,13 +3,14 @@ Iso-seq data analysis tools, including predict polycistronic transcript, find fu
 #2022.2.7
 #version1
 Make sure the following software is installed before running the program:
+```
 python versionn 3
 conda install -c bioconda gmap
 conda install -c bioconda cufflinks
 conda install -c bioconda transdecoder
 conda install -c bioconda gffcompare
 conda install -c bioconda blat
-
+```
 ################################################################################
 example commandline 1
 ```
